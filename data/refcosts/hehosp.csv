@@ -1,0 +1,24 @@
+Currency Code,Currency Description,Activity,National Average Unit Cost,Lower Quartile Unit Cost,Upper Quartile Unit Cost,Number of Bed Days,Average Length of Stay - Days,No. Data Submissions
+GC01A,Liver Failure Disorders with Interventions,66,3419.971667,1546.63,4631.81,614,9.303030303,32
+GC01B,Liver Failure Disorders without Interventions,65,2165.139231,873.91,3080.955,307,4.723076923,32
+GC12A,Malignant Liver and Pancreatic Disorders with length of stay 2 days or more,2327,2604.996979,1779.89,3291.41,14308,6.1486893,136
+GC12B,Malignant Liver and Pancreatic Disorders with length of stay 1 day or less,1391,916.3395543,397.89,1198.29,1474,1.059669303,122
+GC15A,Non-Malignant Liver Disorders with Catastrophic CCs,97,4719.390309,3092.435,6119.77,980,10.10309278,37
+GC15B,Non-Malignant Liver Disorders with Severe CCs,155,3517.150129,1947.35,4388.9,1267,8.174193548,52
+GC15C,Non-Malignant Liver Disorders with Major CCs,622,2772.42365,1337.62,4504.3975,3356,5.395498392,100
+GC15D,Non-Malignant Liver Disorders without Major CCs,2229,1704.953136,875.69,2631.38,7033,3.155226559,134
+GC16A,Non-Malignant Pancreatic and Biliary Disorders with Catastrophic CCs,48,5583.686667,1466.7675,9269.88,644,13.41666667,28
+GC16B,Non-Malignant Pancreatic and Biliary Disorders with Severe CCs,245,2610.072245,1155.23,3631.91,1484,6.057142857,84
+GC16C,Non-Malignant Pancreatic and Biliary Disorders with Major CCs,1226,1648.732284,659.73,2245.5425,4432,3.615008157,138
+GC16D,Non-Malignant Pancreatic and Biliary Disorders without Major CCs,3109,1206.103676,585.08,1536.04,5949,1.913477002,148
+GC01A,Liver Failure Disorders with Interventions,1113,3870.186065,2113.995,4634.68,13011,11.69002695,139
+GC01B,Liver Failure Disorders without Interventions,2152,2027.35388,1351.2,2263.14,12756,5.927509294,149
+GC12A,Malignant Liver and Pancreatic Disorders with length of stay 2 days or more,11117,2607.151645,1939.89,2955.57,89015,8.007106234,164
+GC12B,Malignant Liver and Pancreatic Disorders with length of stay 1 day or less,518,1134.214498,297.87,1078.81,1343,2.592664093,34
+GC15A,Non-Malignant Liver Disorders with Catastrophic CCs,1844,4059.049214,2563.94,4927.24,23569,12.78145336,145
+GC15B,Non-Malignant Liver Disorders with Severe CCs,2249,3237.744753,2099.84,3824.03,23805,10.58470431,144
+GC15C,Non-Malignant Liver Disorders with Major CCs,7559,2442.06064,1733.53,2920.98,59436,7.862944834,153
+GC15D,Non-Malignant Liver Disorders without Major CCs,12610,1836.097167,1348.18,2101.83,69954,5.547501983,159
+GC16A,Non-Malignant Pancreatic and Biliary Disorders with Catastrophic CCs,1089,4108.614141,2109.98,4994.18,13902,12.76584022,143
+GC16C,Non-Malignant Pancreatic and Biliary Disorders with Major CCs,20487,2079.498337,1607.66,2289.92,120731,5.893054132,156
+GC16D,Non-Malignant Pancreatic and Biliary Disorders without Major CCs,40947,1602.820063,1274.17,1817.76,170261,4.158082399,158

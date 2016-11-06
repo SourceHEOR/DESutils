@@ -1,0 +1,39 @@
+Package: DESutils
+Maintainer: David Trueman <dtrueman@sourceheor.com>
+Author: David Trueman, with contributions from Catrin Treharne
+Date: 06-11-2016
+Version: 1.2
+License: NA
+Title: Discrete event simulation functions
+Description: Provides utility functions for discrete event simulations in
+    health economics
+Depends:
+    R (>= 2.15),
+    MCMCpack,
+    ggplot2,
+    survival,
+    gridExtra,
+    reshape,
+    network
+BugReports:
+    dtrueman@sourceheor.com
+Collate:
+    'acceptreject.R'
+    'agedeathlifetable.R'
+    'coeficientvariation.R'
+    'cumulativesurvival.R'
+    'findit.R'
+    'inverseexponential.R'
+    'inversegamma.R'
+    'inversesurvival.R'
+    'inverseuniform.R'
+    'overview.R'
+    'presentvaluecont.R'
+    'presentvalueone.R'
+    'pssru.R'
+    'refcostsumweights.R'
+    'refcostuncertainty.R'
+    'guyot.R'
+    'distfind.R'
+    'infotable.R'
+	

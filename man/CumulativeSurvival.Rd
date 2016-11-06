@@ -1,0 +1,31 @@
+\name{CumulativeSurvival}
+\alias{CumulativeSurvival}
+\title{Generate stochastic cumulative survival}
+\usage{
+  CumulativeSurvival(a, b = 1, distribution, time,
+    coefficients)
+}
+\arguments{
+  \item{a}{scale parameter of distribution}
+
+  \item{b}{shape parameter (e.g. b for exponential
+  distribution is 1)}
+
+  \item{distribution}{one of "expo","weib","logl","logn" or
+  "gomp"}
+
+  \item{time}{time for which the cumulative survival is
+  required}
+
+  \item{coefficients}{currently a single value representing
+  the sum product of the values taken by variables and the
+  associated coefficients}
+}
+\description{
+  Returns cumulative survival probability for a given time
+  point
+}
+\author{
+  Christopher Livings <christopher.livings@abacusint.com>
+}
+

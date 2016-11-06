@@ -1,0 +1,13 @@
+This is set of functions in R to execute a discrete event simulation for health economic evaluation efficiently.
+
+### Installation on Windows ###
+install.packages("C:/Users/DavidT/Documents/GitHub/DES", type = "source", repos=NULL)
+library("DESutils")
+
+### Compiling help files after modification ###
+library("roxygen2")
+roxygenise("C:/Users/DavidT/Documents/GitHub/DES", overwrite=TRUE)
+
+Note you will then need to re-install.
+Note forward slashes in file paths.
+
