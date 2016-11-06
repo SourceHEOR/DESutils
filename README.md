@@ -13,3 +13,12 @@ Or if you have the `githubinstall` package is installed:
 	
 
 Example use cases will be included here soon but are available in the help files for the respective functions.
+
+Author
+------
+  **D Trueman**  
+  Source HEOR
+  
+  _dtrueman@sourceheor.com_     
+  _http://www.sourceheor.com/_  
+
