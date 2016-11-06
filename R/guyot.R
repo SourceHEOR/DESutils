@@ -1,7 +1,7 @@
 #' Create patient-level dataset from published KM curves
 #' 
-#' Wrapper for algorithm provided by Guyolt et al. to facilitate easier use.
-#' Resturns a patient-level dataset
+#' Wrapper for algorithm provided by Guyot et al. to facilitate easier use.
+#' Returns a patient-level dataset
 #' 
 #' @param my.path string of file from where all the data must be accessible
 #' @param n.arms integer representing teh number of arms in the study/data
@@ -21,9 +21,9 @@
 #' #Original 'real' data
 #' require(survival)
 #' bladder
-#' bsurv<-Surv(bladder$stop, bladder$event)
-#' bfit<-survfit(bsurv~bladder$rx)
-#' Ggkm(bfit, timeby=10, ystratalabs=c("Treatment 1","Treatment 2"), main="Original data")
+#' asurv<-Surv(bladder$stop, bladder$event)
+#' afit<-survfit(asurv~bladder$rx)
+#' plot(afit)
 #' 
 #' #Reconstructed data
 #' patient.data <- DigitizeKM(my.path="data/bladder",
@@ -32,8 +32,8 @@
 #'                           risk.data=c('tx1_risk.csv','tx2_risk.csv'))
 #'                           
 #'                           
-#' bfit<-survfit(Surv(patient.data[,1], patient.data[,2])~patient.data[,3])
-#' Ggkm(bfit, timeby=10, ystratalabs=c("Treatment 1","Treatment 2"), main="Reconstructed data")
+#' bfit<-survfit(Surv(time, fail)~arm, data=patient.data)
+#' plot(bfit)
 
 DigitizeKM <- function(my.path,
                        n.arms=1,
