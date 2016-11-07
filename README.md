@@ -6,7 +6,7 @@
 	library(devtools)
 	install_github("SourceHEOR/DESutils")
 
-Or if you have the `githubinstall` package is installed:
+Or if you have the `githubinstall` package installed:
 	
 	library(githubinstall)
 	githubinstall("DESutils")
